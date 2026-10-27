@@ -60,3 +60,4 @@ Choose the preset matching your dataset size and runtime target:
 - [`export_onnx.py`](./export_onnx.py): Verification script (parameter count, permutation invariance, backward pass) and ONNX exporter (`opset >= 14`) for Unity Sentis / Barracuda.
 
 
+(Note: In the zip archive and repository, checkpoints/ and large dataset cache directories are ignored from git to keep file sizes manageable, and are created automatically when you run train.py or cross_dataset_eval.py) 
